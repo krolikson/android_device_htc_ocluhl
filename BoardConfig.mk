@@ -5,14 +5,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := /home/kroolik/platform_manifest_twrp_aosp-twrp-11/device/htc/htc_ocluhl
+DEVICE_PATH := device/htc/htc_ocluhl
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS := boot dsp dtbo hosd system vbmeta vendor
+AB_OTA_PARTITIONS := boot dtbo hosd system vbmeta vendor
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture

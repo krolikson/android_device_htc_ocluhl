@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := /home/kroolik/platform_manifest_twrp_aosp-twrp-11/device/htc/htc_ocluhl
+LOCAL_PATH := device/htc/htc_ocluhl
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
